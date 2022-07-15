@@ -1,0 +1,51 @@
+:root{
+
+    /* colors */
+
+        /* primary */
+
+            --color-primary-darkCyan: hsl(158,36%, 37%);
+            --color-primary-cream: hsl(30,38%, 92%);
+
+        /* neutral */
+
+            --color-neutral-veryDarkBlue:hsl(212, 21%, 14%);
+            --color-neutral-darkGrayishBlue:hsl(228, 12%, 48%);
+            --color-neutral-white:hsl(0, 0%, 100%);
+
+    /* Fonts */
+
+        /* sizes */
+
+            --font-size-body:14px;
+
+        /* family */
+
+            --font-family-sansSerif: 'Montserrat', sans-serif;
+            --font-family-serif: 'Fraunces', serif;
+
+        /* weight */
+
+            --font-weight-500: 500;
+            --font-weight-700: 700;
+
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
