@@ -62,8 +62,7 @@ body{
 }
 
 .card-image img{
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-radius: 10px 0 0 10px;
     height: 100%;
     width: 100%;
 }
@@ -75,8 +74,7 @@ body{
     gap: 1em;
     padding: 2em 2em;
     background-color: var(--color-neutral-white);
-    border-top-right-radius:10px ;
-    border-bottom-right-radius: 10px;
+    border-radius: 0 10px 10px 0;
 }
 
 .card-info > h3 {
@@ -131,6 +129,22 @@ width: fit-content;
 
 .card-info-price p{
     text-decoration: line-through;
+}
+
+
+@media only screen and (max-width:550px){
+
+    body{
+        padding: 1em;
+        height: 100%;
+    }
+    .card{
+        flex-direction: column;
+    }
+    .card-image img{
+        border-radius: 10px 10px 0 0;
+    }
+    
 }
 
 
